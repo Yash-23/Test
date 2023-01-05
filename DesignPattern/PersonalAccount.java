@@ -1,6 +1,6 @@
-public class PersonalAccount implements bankAccount{
+public class PersonalAccount implements bankAccount {
     @Override
-    public void create(){
+    public void create() {
         System.out.println("Personal Account is Created");
     }
 }

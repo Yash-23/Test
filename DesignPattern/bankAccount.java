@@ -1,4 +1,3 @@
 public interface bankAccount {
-    void create();    
+    void create();
 }
-

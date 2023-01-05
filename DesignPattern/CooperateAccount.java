@@ -1,6 +1,6 @@
-public class CooperateAccount implements bankAccount{
+public class CooperateAccount implements bankAccount {
     @Override
-    public void create(){
+    public void create() {
         System.out.println("Cooperate Account is Created");
     }
 }
