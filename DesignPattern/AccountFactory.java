@@ -8,6 +8,9 @@ public class AccountFactory {
             
          } else if(AccountType.equalsIgnoreCase("Cooperate")){
             return new CooperateAccount();
-        return null;
+        }
+        else {
+            return new BuisnessAccount();
         }  
+    }
 }
