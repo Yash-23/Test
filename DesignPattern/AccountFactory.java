@@ -1,5 +1,6 @@
 public class AccountFactory {
-    public bankAccount createAccount(String AccountType){
+
+    public static bankAccount createAccount(String AccountType){
         if(AccountType == null){
             return null;
          }		
@@ -9,8 +10,9 @@ public class AccountFactory {
          } else if(AccountType.equalsIgnoreCase("Cooperate")){
             return new CooperateAccount();
         }
-        else {
+        else if(AccountType.equalsIgnoreCase("Buisness")) {
             return new BuisnessAccount();
-        }  
+        } 
+        return null; 
     }
 }
